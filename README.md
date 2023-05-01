@@ -9,6 +9,7 @@ To use EmojifyAI, you need to have the following libraries installed:
   4. `numpy`
   5. `pandas`
   6. `re`
+  7. `streamlit`
 
 #### You can install these dependencies using pip:
 ```pip install transformers torch nltk numpy pandas```
