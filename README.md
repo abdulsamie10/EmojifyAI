@@ -2,7 +2,7 @@
 EmojifyAI is a Python package that suggests relevant emojis for a given input sentence using natural language processing techniques. It employs the BERT model to generate embeddings for the input sentence and the emojis' descriptions, and then finds the most similar emojis using cosine similarity.
 
 ### Installation
-To use EmojifyAI, you need to have the following libraries installed:
+To use EmojifyAI, you need to have the following libraries installed with Python 3.11:
   1. `transformers`
   2. `torch`
   3. `nltk`
@@ -10,6 +10,10 @@ To use EmojifyAI, you need to have the following libraries installed:
   5. `pandas`
   6. `re`
   7. `streamlit`
+
+### Install Requirements
+To install all the requirement of the project, simply type: 
+`pip install -r requirements.txt`
 
 #### You can install these dependencies using pip:
 ```pip install transformers torch nltk numpy pandas```
@@ -37,6 +41,11 @@ The `EmojifyAI` class provides the following methods:
   
 ### SuggestEmojis function
 The `suggestEmojis(sentence: str)` function is a helper function that takes an input sentence and suggests the most relevant emojis for the sentence. It uses the EmojifyAI class to process the sentence and find the most similar emojis based on the cosine similarity between the sentence and emojis' descriptions.  
+
+### Run Code
+There are two files in this project:
+  1. To run `EmojifyAI.ipynb`, make sure to run it via Jupyter Noteebook.
+  2. To run `EmojifyAI_SL.py`, type this command on terminal (directory), `streamlit run EmojifyAI_SL.py`.
 
 ### Output Demo
 <img src="./Output/Output.gif" alt="Output Demo">
