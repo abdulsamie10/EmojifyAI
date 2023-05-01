@@ -38,6 +38,10 @@ The `EmojifyAI` class provides the following methods:
 ### SuggestEmojis function
 The `suggestEmojis(sentence: str)` function is a helper function that takes an input sentence and suggests the most relevant emojis for the sentence. It uses the EmojifyAI class to process the sentence and find the most similar emojis based on the cosine similarity between the sentence and emojis' descriptions.  
 
+### Output Demo
+<img src="./Output/Output.gif" alt="Output Demo">
+
+
 ### Contributing
 If you'd like to contribute to the project or report a bug, please open an issue or submit a pull request on the GitHub repository.
 
