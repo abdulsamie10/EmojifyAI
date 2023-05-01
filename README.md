@@ -26,3 +26,10 @@ torch.save(mean_tokens, 'checkpoint/token-all.pt')  # Save the mean tokens to a 
 test_sentence = "I am going to the movies"
 suggestEmojis(test_sentence)  # Suggest emojis for the test sentence
 ```
+
+### Emojify Class
+The `EmojifyAI` class provides the following methods:
+  1. `generate_emoji_csv()`: Generates an emoji data CSV file from the raw emoji data.
+  2. `process_csv()`: Processes the emoji CSV file and calculates the mean tokens for the emojis' descriptions.
+  3. `process_sentence(sentence: str)`: Processes the input sentence and returns the mean tokens for the sentence.
+  4. `find_similarity(sentence_tokens, mean_tokens)`: Calculates the cosine similarity between the sentence tokens and the mean tokens of the emojis.
