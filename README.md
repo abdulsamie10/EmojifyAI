@@ -41,5 +41,9 @@ The `suggestEmojis(sentence: str)` function is a helper function that takes an i
 ### Contributing
 If you'd like to contribute to the project or report a bug, please open an issue or submit a pull request on the GitHub repository.
 
+### Credits
+#### Abdul Samie
+#### Fatimah Noor
+
 ### License
 This project is licensed under the MIT License.
