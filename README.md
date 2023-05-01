@@ -15,3 +15,14 @@ To use EmojifyAI, you need to have the following libraries installed:
 
 ### Usage
 Here's an example of how to use EmojifyAI:
+```from EmojifyAI import EmojifyAI, suggestEmojis
+
+emoji_rec = EmojifyAI()  # Instantiate the EmojifyAI class
+emoji_rec.generate_emoji_csv()  # Generate the emoji data CSV file
+
+mean_tokens = emoji_rec.process_csv()  # Process the CSV and obtain mean tokens for emojis
+torch.save(mean_tokens, 'checkpoint/token-all.pt')  # Save the mean tokens to a file
+
+test_sentence = "I am going to the movies"
+suggestEmojis(test_sentence)  # Suggest emojis for the test sentence
+```
