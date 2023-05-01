@@ -34,3 +34,12 @@ The `EmojifyAI` class provides the following methods:
   2. `process_csv()`: Processes the emoji CSV file and calculates the mean tokens for the emojis' descriptions.
   3. `process_sentence(sentence: str)`: Processes the input sentence and returns the mean tokens for the sentence.
   4. `find_similarity(sentence_tokens, mean_tokens)`: Calculates the cosine similarity between the sentence tokens and the mean tokens of the emojis.
+  
+### SuggestEmojis function
+The `suggestEmojis(sentence: str)` function is a helper function that takes an input sentence and suggests the most relevant emojis for the sentence. It uses the EmojifyAI class to process the sentence and find the most similar emojis based on the cosine similarity between the sentence and emojis' descriptions.  
+
+### Contributing
+If you'd like to contribute to the project or report a bug, please open an issue or submit a pull request on the GitHub repository.
+
+### License
+This project is licensed under the MIT License.
